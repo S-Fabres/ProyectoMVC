@@ -1,0 +1,34 @@
+.cuerpo{
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+.cabecera{
+    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.cabeceraBotones{
+    background-color: darkorange;
+}
+.btnCrearLibro{
+    background-color: blue;
+    color: crimson;
+    
+}
+.filas{
+    
+}
+.botonesModificar{
+    background-color: yellow;
+}
+.botonesEliminar{
+    background-color: red;
+}
+.formulario{
+    justify-content: center;
+    background-color: royalblue;
+    color: saddlebrown;
+}

@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `libros` (
   `id` int(11) NOT NULL,
   `titulo` varchar(50) NOT NULL,
-  `autor` int(11) NOT NULL,
+  `idAutor` int(11) NOT NULL,
   `editorial` int(11) NOT NULL,
   `ISDN` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -39,7 +39,7 @@ CREATE TABLE `libros` (
 -- Volcado de datos para la tabla `libros`
 --
 
-INSERT INTO `libros` (`id`, `titulo`, `autor`, `editorial`, `ISDN`) VALUES
+INSERT INTO `libros` (`id`, `titulo`, `idAutor`, `editorial`, `ISDN`) VALUES
 (1, 'Mi amigo el Negro', 1, 1, '454654654645'),
 (2, 'El Principito', 2, 2, '7854646');
 
